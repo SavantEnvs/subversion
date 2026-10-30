@@ -1,0 +1,5 @@
+# .dockerignore for the commit-image build: bake in the FULL repo (including .git history) and drop
+# only editor/OS cruft. Upstream's tracked build/ directory (gen-make.py inputs) MUST stay in the context.
+.DS_Store
+*.swp
+*~

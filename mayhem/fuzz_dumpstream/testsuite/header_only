@@ -1,0 +1,18 @@
+SVN-fs-dump-format-version: 2
+
+UUID: 12345678-1234-1234-1234-123456789abc
+
+Revision-number: 0
+Prop-content-length: 77
+Content-length: 77
+
+K 8
+svn:date
+V 27
+2020-01-01T00:00:00.000000Z
+K 7
+svn:log
+V 4
+init
+PROPS-END
+

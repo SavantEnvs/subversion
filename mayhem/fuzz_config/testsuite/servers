@@ -1,0 +1,8 @@
+# comment
+[groups]
+example = *.example.com
+
+[example]
+http-proxy-host = proxy.example.com
+http-proxy-port = 3128
+http-timeout = 60

@@ -1,0 +1,10 @@
+[general]
+store-passwords = no
+[auth]
+password-stores = gnome-keyring,kwallet
+[miscellany]
+global-ignores = *.o *.lo *.la #*# .*.rej *.rej .*~ *~ .#* .DS_Store
+use-commit-times = yes
+[auto-props]
+*.c = svn:eol-style=native
+*.png = svn:mime-type=image/png

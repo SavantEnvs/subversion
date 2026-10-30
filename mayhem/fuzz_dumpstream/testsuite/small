@@ -1,0 +1,58 @@
+SVN-fs-dump-format-version: 2
+
+UUID: 12345678-1234-1234-1234-123456789abc
+
+Revision-number: 0
+Prop-content-length: 77
+Content-length: 77
+
+K 8
+svn:date
+V 27
+2020-01-01T00:00:00.000000Z
+K 7
+svn:log
+V 4
+init
+PROPS-END
+
+Revision-number: 1
+Prop-content-length: 77
+Content-length: 77
+
+K 8
+svn:date
+V 27
+2020-01-01T00:00:00.000000Z
+K 7
+svn:log
+V 4
+init
+PROPS-END
+
+Node-path: trunk/a.txt
+Node-kind: file
+Node-action: add
+Prop-content-length: 45
+Text-content-length: 12
+Content-length: 57
+
+K 13
+svn:mime-type
+V 10
+text/plain
+PROPS-END
+hello world
+
+
+Node-path: trunk/b.txt
+Node-kind: file
+Node-action: add
+Node-copyfrom-rev: 1
+Node-copyfrom-path: trunk/a.txt
+
+
+Node-path: trunk/a.txt
+Node-action: delete
+
+

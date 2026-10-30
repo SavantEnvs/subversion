@@ -1,0 +1,9 @@
+project: savantenvs/subversion
+target: fuzz_skel
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_skel/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_skel
+    libfuzzer: true
+    timeout: 10

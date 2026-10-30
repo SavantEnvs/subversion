@@ -1,0 +1,1 @@
+( get-latest-rev ( ) ) ( reparent ( 22:svn://localhost/trunk/x ) ) ( check-path ( 1:a ( 12 ) ) ) 

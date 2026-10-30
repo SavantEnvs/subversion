@@ -1,0 +1,9 @@
+project: savantenvs/subversion
+target: fuzz_mergeinfo
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_mergeinfo/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_mergeinfo
+    libfuzzer: true
+    timeout: 10
